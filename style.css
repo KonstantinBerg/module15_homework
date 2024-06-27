@@ -1,0 +1,111 @@
+/* Task 1 */
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    
+    display: flex;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #315efb;
+    transition: .3s;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+  }
+  
+  .btn_text {
+    margin-right: 10px;
+  }
+  
+  .btn_icon {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+  }
+
+  /* Task 2 */
+  .task_2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Task 3 */
+
+  .chat-container {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-window {
+    height: 300px;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #e1ffc7;
+}
+
+.chat-response {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 1px;
+    background-color: #e0e0e0;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-top: .5px solid #ccc;
+}
+
+.button {
+  width: 45%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.geo-btn {
+  background-color: #2fdfce;
+}
+
+.geo-btn:hover {
+  background-color: #3cbaae;
+}
+
+
+
+
+  
